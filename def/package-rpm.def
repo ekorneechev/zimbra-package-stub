@@ -4,4 +4,4 @@ PKG_BUILD := rpmbuild -v --define "_topdir $$PWD" -ba
 PKG_EXTRACT := sudo apt-get -y install
 PKG_PURGE := sudo apt-get remove -y
 PKG_DEV := devel
-PKG_LIB := lib
+PKG_LIB := libs
