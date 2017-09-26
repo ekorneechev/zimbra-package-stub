@@ -1,0 +1,4 @@
+include $(DEF_ROOT)/package-rpm.def
+
+PKG_APPEND.ALT_64 = -alt
+PKG_OS_TAG.ALT_64 = ALT
